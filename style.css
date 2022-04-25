@@ -1,0 +1,80 @@
+#bold{
+    font-weight: bold;
+    color:rgb(153, 102, 201);
+}
+
+#main_comment{
+    background-color: rgba(0,0,0, 0.5);
+}
+
+#Metaverse_main_comment{
+    font-weight: bold;
+    color:rgb(153, 102, 201);
+}
+
+#chapter{
+    font-size: 80px;
+    border-bottom: 3px solid white;
+    font-weight: bold;
+    color:white;
+
+}
+
+a{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+#chapter_content{
+    font-weight: 100;
+    color:white;
+}
+
+#chapters{
+    margin-top:13%;
+}
+
+#names{
+    font-size: 20px;
+    color:white;
+}
+
+#chapter1{
+    font-weight: 500;
+    font-size: 100px;   
+    margin-top:20%;
+    color:white;    
+}
+
+#what_meta{
+    color:white;
+}
+
+#chapter1_1{
+    margin-top:20%;
+}
+
+#concept_meta{
+    color:white;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+#chapter1_2{
+    margin-top: 20%;
+}
+
+#description_meta{
+    font-size: 30px;
+    color:white;
+}
+
+#using_meta{
+    color:white;
+    font-weight: 500;
+    font-size: 100px;
+    
+}
+
+#chapter2{
+    margin-top:20%;
+}
