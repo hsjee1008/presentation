@@ -78,3 +78,33 @@ a{
 #chapter2{
     margin-top:20%;
 }
+
+#metaverse_sex{
+    color: black;
+    font-weight: 1000;
+}
+
+#metaverse_sex1{
+    color:white;
+    font-weight: 600;
+    background: linear-gradient(to right top, #834d8e, #302d67);
+    -webkit-background-clip: text;
+    font-family: 'Inter', sans-serif;
+    font-size: 100px;
+}   
+
+#test{
+    margin-top:20%;
+    color:black;
+    font-weight: 1000;
+}
+
+#grad_highlights{
+    font-size: 100px;
+    color:transparent;
+    font-weight: 600;
+    background: linear-gradient(to right top, #834d8e, #302d67);
+    -webkit-background-clip: text;
+    font-family: 'Inter', sans-serif;
+
+}
