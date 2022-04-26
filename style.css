@@ -102,9 +102,9 @@ a{
 #grad_highlights{
     font-size: 100px;
     color:transparent;
-    font-weight: 600;
     background: linear-gradient(to right top, #834d8e, #302d67);
     -webkit-background-clip: text;
     font-family: 'Inter', sans-serif;
+    
 
 }
