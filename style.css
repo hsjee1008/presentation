@@ -68,6 +68,13 @@ a{
     color:white;
 }
 
+#description_meta2{
+    font-size: 30px;
+    color:white;
+    font-weight: bold;
+}
+
+
 #using_meta{
     color:white;
     font-weight: 500;
