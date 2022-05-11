@@ -58,6 +58,11 @@ a{
     font-size: 70px;
     font-weight: bold;
 }
+#concept_meta12{
+    color:white;
+    font-size: 90px;
+    font-weight: bold;
+}
 
 #chapter1_2{
     margin-top: 20%;
@@ -81,10 +86,20 @@ a{
     font-weight: bold;
 }
 
+#description_meta21{
+    font-size: 40px;
+    color:white;
+    font-weight: bold;
+}
+
 #description_meta3{
     font-size: 50px;
     color:white;
     font-weight: bold;
+}
+#description_meta5{
+    font-size: 33px;
+    color:black;
 }
 #using_meta{
     color:white;
@@ -105,12 +120,15 @@ a{
 #metaverse_sex1{
     color:white;
     font-weight: 600;
-    background: linear-gradient(to right top, #834d8e, #302d67);
+    background: linear-gradient(to right top, #2acaf7, #36f95d);
     -webkit-background-clip: text;
     font-family: 'Inter', sans-serif;
     font-size: 100px;
 }   
 
+#make_bold{
+    font-weight: bold;
+}
 #test{
     margin-top:20%;
     color:black;
@@ -120,7 +138,7 @@ a{
 #grad_highlights{
     font-size: 100px;
     color:transparent;
-    background: linear-gradient(to right top, #834d8e, #302d67);
+    background: linear-gradient(to right top, #2acaf7, #36f95d);
     -webkit-background-clip: text;
     font-family: 'Inter', sans-serif;
     description_meta
@@ -128,6 +146,8 @@ a{
 }
 
 #gucci_contents{
+    font-size: 55px;
     font-style: 'Noto Sans KR', sans-serif ;
     color:black;
+    
 }
