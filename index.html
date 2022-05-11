@@ -40,6 +40,30 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@800&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" rel="stylesheet">	
+
+		<style>
+			body {
+			background-color: black;
+			font-family: cursive;
+			}
+
+			.glow {
+			font-size: 40px;
+			color: #ffffff;
+			text-align: center;
+			animation: glow 1s ease-in-out infinite alternate;
+			}
+
+			@-webkit-keyframes glow {
+			from {
+				text-shadow: 0 0 20px #ffffff, 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 5px #ffffff;
+			}
+			
+			to {
+				text-shadow: 0 0 10px #ffffff, 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 5px #ffffff;
+			}
+			}
+		</style>
 	</head> 
 	<body>
 		<div class="reveal">
@@ -94,7 +118,6 @@
 			</div>
 			 
 			<div class="slides">
-				
 				<section  data-background-videos="black">
 					<section data-background-video="background33.mp4" 
 					data-background-video-loop data-background-video-muted data-background-opacity="0.8">
@@ -122,7 +145,7 @@
 						</p>
 					</div>
 				</section>
-
+				
 				<section data-background="boonryu.jpg" data-background-opacity="0.3" data-transition="fade-in">
 					<div id="box"></div>
 					<div id="chapter1_2">
@@ -250,7 +273,7 @@
 					</div>
 				</section>
 
-				<section data-background="black" data-transition="fade-in fade-out">
+				<section data-background="nike.jpg" data-background-opacity="0.2" data-transition="fade-in fade-out">
 					<div style="margin-top:8%;">
 						<p class="fragment grow"><a style="color:white;font-weight: bold;">+ NIKE LAND</a></p>
 						<p class="fragment fade-in-then-semi-out" id="gucci_contents" style="margin-top:10%;"><a style="color:white;">메타버스 상에서 플레이어들이 다양한 게임을 </a> <a style="color:transparent;background:linear-gradient(to right top, #6a3289, #a4c849);-webkit-background-clip: text;">체험, 제작</a> <a style="color:transparent;background:linear-gradient(to right top, #6a3289, #a4c849);-webkit-background-clip: text;"></a> <a style="color:white;">할 수 있게 함</a></p>
@@ -259,19 +282,19 @@
   							<img class="fragment fade-in-the-out" src="nikeland2.png" width="30%">
 						</div>
 					</div>
-				</section>
+				</section> 
 			</div>	
 
 			<div class="slides">
 				<section data-background-color="rgb(0,0,0)">
-					<section data-background-video="background33.mp4" 
+					<section data-background-video="background33.mp4"
 					data-background-video-loop data-background-video-muted data-background-opacity="0.4">
 					<div id="chapter1">
 						<a id="chapter1">교육적 활용의 사례</a>
 					</div>
 
 				</section>
-				
+				<!--가상 세계-->
 
 				<section data-background-video="waksadae.mp4" 
 				data-background-video-loop data-background-video-muted data-background-opacity="0.4">
@@ -290,15 +313,23 @@
 							<span class="fragment highlight-red">녹화</span>를 하거나 <span class="fragment highlight-red">줌</span>으로 하는 것 보다 좋은 것 같고..<br>
 							이 맵이 공개가 되어있다면 <span class="fragment highlight-red">실제로 여기서 수업을 하는 것도</span> 고려하고 있거든요..<br></a>
 							
-						<a id="description_meta" class="fragment fade-right" >- 대구대학교 성산교양대학 자유전공학부 윤주한 교수<br></a>
+						<a id="description_meta" class="fragment fade-right">- 대구대학교 성산교양대학 자유전공학부 윤주한 교수<br></a>
 					</div>
 				</section>
 				
+				<section data-background-iframe="https://www.youtube.com/embed/G531ABhyxfE" 
+				data-background-opacity="0.4">
+
+					<div id="chapter1_1"> 
+						<a id="concept_meta">VRChat 사이버 대학교</a>
+						<br>
+						<a id="description_meta" class="fragment fade-right">색영역의 이해 강의, 미학 강의 등<br></a>
+					</div>
+				</section>
 				
 				<section data-background-video="seoul.mp4" data-background-video-loop data-background-video-muted data-background-opacity="0.4">
 					<div id="chapter1_1" >
 						<a id="concept_meta">마인크래프트 궁중문화축전<br></a>
-
 						<a id="description_meta2" class="fragment fade-right">마인크래프트에서 실제 건물들 뿐만 아니라 이벤트를 즐기며 궁궐과 친해진다!<br></a>
 						<!--<a id="description_meta" class="fragment fade-right">(설명 적기)</a>--->
 					</div>
@@ -312,11 +343,12 @@
 						
 					</div>
 				</section>
-				<section data-background="etoos2.png" data-background-opacity="0.4" data-background-transition="zoom" >
-					<div id="chapter1_1">
-						<a id="description_meta3" class="fragment fade-right">"그냥 강의 듣는거랑 뭐가 다른거지?"<br></a>
-						<a id="description_meta3" class="fragment fade-right">"이투스 진짜 대실망"<br></a>
-						<a id="description_meta3" class="fragment fade-right">"환불 안되나"<br></a>
+				<section data-background="etoos2.png" data-background-opacity="0.2" data-background-transition="fade in" >
+					<div id="chapter1_1" style="margin-top:15%;">
+						<p class="fragment fade-right"><a id="description_meta3"> " [******] 그냥 강의 듣는거랑 뭐가 다른거지? "<br><br></a></p>
+						<p class="fragment fade-right"><a id="description_meta3">" [***] 이 정도면 사기 아님? ㅋㅋㅋ 실시간 라이브라며... "<br><br></a></p>
+						<p class="fragment fade-right"><a id="description_meta3">" [*****] 이투스 진짜 대실망 "<br><br></a></p>
+						<p class="fragment fade-right"><a id="description_meta3">" [***] 환불 안되나... "<br><br></a></p>
 					</div>
 				</section>
 			</div>	
@@ -344,20 +376,38 @@
 					</div>
 				</section>
 
-				<section data-background="dale2.png" data-background-opacity="">
-
-				</section>
-
-				<section>
+				<section data-background="background 123.png" data-background-opacity="0.6">
 					<div id="chapter1_2">
 						
-						<p id="description_meta" class="fragment fade-right">● 현실 세계의 상호작용보다 <a style="color:transparent;background:linear-gradient(to right top, #af30dd, #1b3fb5);-webkit-background-clip: text;">가볍게 이루어지는</a> 상호작용</p>
+						<p id="description_meta" class="fragment fade-right">● 현실 세계의 상호작용보다 <a style="color:transparent;background:linear-gradient(to right top, #1bc9d8, #1caa12);-webkit-background-clip: text;">가볍게 이루어지는</a> 상호작용</p>
 						<br>
-						<p id="description_meta" class="fragment fade-right">● 관리자가 사용자의 <a style="color:transparent;background:linear-gradient(to right top, #af30dd, #1b3fb5);-webkit-background-clip: text;">행위</a>를 예측할 수 없음</p>
+						<p id="description_meta" class="fragment fade-right">● 관리자가 사용자의 <a style="color:transparent;background:linear-gradient(to right top, #1bc9d8, #1caa12);-webkit-background-clip: text;">행위</a>를 예측할 수 없음</p>
 						<br>
-						<p id="description_meta" class="fragment fade-right">● 기존의 온라인 공간보다 <a style="color:transparent;background:linear-gradient(to right top, #af30dd, #1b3fb5);-webkit-background-clip: text;">몰입도</a>가 큼</p>
+						<p id="description_meta" class="fragment fade-right">● 기존의 온라인 공간보다 <a style="color:transparent;background:linear-gradient(to right top, #1bc9d8, #1caa12);-webkit-background-clip: text;">몰입도</a>가 큼</p>
 					</div>
 				</section>
+				<section data-background="background 123.png" data-background-opacity="0.6">
+					<pre><code data-line-numbers="2-3|4-5|6-7|8-9|10-11|12-13">
+						이서준 [메타버스의 교육적 활용]
+						- 
+						지현서 [메타버스의 가능성과 한계]
+						- 
+						양승민 [메타버스의 활용 사례]
+						-
+						강민서 [메타버스의 개념과 종류]
+						-
+						박준석 [메타버스의 가능성과 한계]
+						-
+						강지효 [메타버스의 교육적 활용]
+						-
+
+				</section>
+				<section data-background="background 123.png" data-background-opacity="0.6">
+					<div id="chapter1_2">
+						<p id="description_meta4" class="fragment fade-right">지금까지 들어주셔서 <a style="color:transparent;background:linear-gradient(to right top, #1bc9d8, #1caa12);-webkit-background-clip: text;">감사합니다 !</a></p>
+					</div>
+				</section>
+
 			</div>
 			
 		</div>
