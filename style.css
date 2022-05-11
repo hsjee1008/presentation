@@ -63,6 +63,13 @@ a{
     margin-top: 20%;
 }
 
+#description_meta4{
+    font-size: 50px;
+    color:white;
+}
+
+
+
 #description_meta{
     font-size: 30px;
     color:white;
@@ -116,7 +123,7 @@ a{
     background: linear-gradient(to right top, #834d8e, #302d67);
     -webkit-background-clip: text;
     font-family: 'Inter', sans-serif;
-    
+    description_meta
 
 }
 
